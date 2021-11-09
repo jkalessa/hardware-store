@@ -1,1 +1,1 @@
-# my-app-jessi
+# Welcome to Hardware Store
