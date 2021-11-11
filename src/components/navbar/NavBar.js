@@ -3,12 +3,29 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <nav className="navBar">
+      <a href="https://www.google.com.pe/">
+        <img
+          className="logo"
+          src="/assets/grab-logo-vector.svg"
+          alt="logotipo"
+        />
+      </a>
       <ul>
-        <li>Inicio</li>
-        <li>Ofertas</li>
-        <li>Marcas</li>
-        <li>Nosotros</li>
-        <li>Contactanos</li>
+        <li>
+          <a href="https://www.google.com.pe/">Inicio</a>
+        </li>
+        <li>
+          <a href="https://www.google.com.pe/">Ofertas</a>
+        </li>
+        <li>
+          <a href="https://www.google.com.pe/">Marcas</a>
+        </li>
+        <li>
+          <a href="https://www.google.com.pe/">Nosotros</a>
+        </li>
+        <li>
+          <a href="https://www.google.com.pe/">Contactanos</a>
+        </li>
       </ul>
     </nav>
   );
