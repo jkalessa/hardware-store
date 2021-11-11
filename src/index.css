@@ -7,4 +7,5 @@
 body {
   /* overflow es para ocultar cuando un elemnto se deborda en x o en y */
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
