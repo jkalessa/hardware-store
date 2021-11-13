@@ -19,8 +19,8 @@ li {
   align-items: center;
 }
 
-a {
-  color: aliceblue;
+.navBar ul li a {
+  color: white;
   text-decoration: none;
 }
 
