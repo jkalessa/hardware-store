@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import CartWidget from "../cartWidget/CartWidget";
 
 const NavBar = () => {
   return (
@@ -26,6 +27,7 @@ const NavBar = () => {
         <li>
           <a href="https://www.google.com.pe/">Contactanos</a>
         </li>
+        <CartWidget />
       </ul>
     </nav>
   );
