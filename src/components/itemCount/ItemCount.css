@@ -1,0 +1,25 @@
+.centrarContenido {
+  display: flex;
+  justify-content: center;
+}
+
+.ordenarHorizontal {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+
+.anchoParrafo {
+  width: 100px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.anchoBoton {
+  width: 50px;
+  font-size: 25px;
+  color: cornflowerblue;
+  border-style: none;
+  background-color: transparent;
+}
