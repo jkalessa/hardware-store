@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import "./ItemCount.css";
 
-const ItemCount = () => {
-  const [counter, setCounter] = useState(1);
+const ItemCount = ({ stock, initial }) => {
+  const [counter, setCounter] = useState(initial);
 
   const handleCountUp = () => {
-    setCounter(counter + 1);
+    if (counter < stock) {
+      setCounter(counter + 1);
+    }
   };
 
   const handleCountDown = () => {
-    setCounter(counter - 1);
+    if (counter > 0) {
+      setCounter(counter - 1);
+    }
   };
   return (
     <div className="centrarContenido">
