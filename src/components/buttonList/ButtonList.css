@@ -1,0 +1,11 @@
+#botonLista {
+  background: #232b35;
+  color: aliceblue;
+  text-align: center;
+  width: 300px;
+  cursor: pointer;
+}
+
+#botonLista:hover {
+  background-color: #637182;
+}
